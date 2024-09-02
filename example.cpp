@@ -1,0 +1,12 @@
+
+/*
+DPCT1007:589: Migration of CUDNN_ATTR_ENGINE_KNOB_INFO is not supported.
+*/
+CUDNN_ATTR_ENGINE_KNOB_INFO,
+/*
+DPCT1007:590: Migration of CUDNN_TYPE_BACKEND_DESCRIPTOR is not supported.
+*/
+CUDNN_TYPE_BACKEND_DESCRIPTOR,
+/*
+DPCT1007:591: Migration of CUDNN_KNOB_TYPE_COUNTS is not supported.
+*/
