@@ -20,7 +20,7 @@ int main(int argc, char *argv[])
         while (getline(file, line)) {
             // Process the line
             if (line.find("DPCT1007") != std::string::npos) {
-              int start = line.find("Migration of") + 12;
+              int start = line.find("Migration of") + 13;
               int end = line.rfind("is not supported.") - 1;
               int length = end - start + 1;
 
